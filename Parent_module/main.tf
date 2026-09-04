@@ -6,6 +6,11 @@ module "resource_group" {
             location = "East US"
         }
 
+         rg2 = {
+            name     = "resource_3"
+            location = "West US"
+        }
+
 
     }
 
